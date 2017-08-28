@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D50E7511F5479E700AFBED7 /* LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50E7501F5479E700AFBED7 /* LL.m */; };
+		0D50E7551F547A9300AFBED7 /* LLN.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D50E7541F547A9300AFBED7 /* LLN.m */; };
 		0DFDAE691F54624600E0B57D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFDAE681F54624600E0B57D /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D50E74F1F54769500AFBED7 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		0D50E7501F5479E700AFBED7 /* LL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LL.m; sourceTree = "<group>"; };
+		0D50E7521F547A1800AFBED7 /* LL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LL.h; sourceTree = "<group>"; };
+		0D50E7531F547A7A00AFBED7 /* LLN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLN.h; sourceTree = "<group>"; };
+		0D50E7541F547A9300AFBED7 /* LLN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLN.m; sourceTree = "<group>"; };
 		0DFDAE651F54624600E0B57D /* LinkedListProj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedListProj; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFDAE681F54624600E0B57D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +64,12 @@
 		0DFDAE671F54624600E0B57D /* LinkedListProj */ = {
 			isa = PBXGroup;
 			children = (
+				0D50E74F1F54769500AFBED7 /* main.h */,
 				0DFDAE681F54624600E0B57D /* main.m */,
+				0D50E7501F5479E700AFBED7 /* LL.m */,
+				0D50E7521F547A1800AFBED7 /* LL.h */,
+				0D50E7531F547A7A00AFBED7 /* LLN.h */,
+				0D50E7541F547A9300AFBED7 /* LLN.m */,
 			);
 			path = LinkedListProj;
 			sourceTree = "<group>";
@@ -119,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D50E7551F547A9300AFBED7 /* LLN.m in Sources */,
 				0DFDAE691F54624600E0B57D /* main.m in Sources */,
+				0D50E7511F5479E700AFBED7 /* LL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +262,7 @@
 				0DFDAE6E1F54624600E0B57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
